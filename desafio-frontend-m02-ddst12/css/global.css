@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+}
+
+h2 {
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+}
+
+h3 {
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.285714px;
+}
+
+.texto-1 {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.texto-2 {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+body {
+  padding: 0 9.1664vw;
+
+  background-color: #f2f2f2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 128px;
+}
+
+.logo-img {
+  height: 32px;
+}
+
+.navbar {
+  display: flex;
+  gap: 42px;
+}
+
+header a {
+  font-size: 12px;
+  font-family: "public sans";
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #33323d;
+}
+
+.atual-page {
+  color: #5fb4a2;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 150px 0;
+}
+
+.contact-section h2 {
+  width: 367px;
+  height: 84px;
+}
+
+.contact-button {
+  width: 168px;
+  height: 48px;
+  border: 1px solid #33323d;
+
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  position: relative;
+
+  height: 64px;
+  width: 100vw;
+  margin-left: -9.1664vw;
+  padding: 0 9.1664vw;
+
+  background-color: #33323d;
+}
+
+footer a {
+  font-size: 12px;
+  font-family: "public sans", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-medias {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  right: 10.5vw;
+}
+
+.social-medias img {
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: #ffffff;
+  background-color: #33323d;
+}
+
+.white-button:hover button {
+  color: #ffffff;
+  background-color: #33323d;
+}

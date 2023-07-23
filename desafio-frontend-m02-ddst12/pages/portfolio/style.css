@@ -1,0 +1,55 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+
+  max-height: 500px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.other-section {
+  margin-top: 80px;
+}
+
+.section-text hr {
+  background: #33323d;
+  opacity: 0.15;
+}
+
+.hr-1 {
+  margin-bottom: 103px;
+}
+
+.hr-2 {
+  margin-top: 103px;
+}
+
+.section-img {
+  max-height: 500px;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 350px;
+}
+
+.section-text button {
+  width: 175px;
+  height: 48px;
+  border: 1px solid #33323d;
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+}

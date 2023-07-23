@@ -1,0 +1,127 @@
+main img {
+  max-width: 80.5vw;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 92px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 350px;
+  height: 496px;
+}
+
+.left-side button {
+  width: 178px;
+  height: 48px;
+  border: 1px solid #33323d;
+
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+
+  cursor: pointer;
+}
+
+.left-side hr {
+  background: #33323d;
+  opacity: 0.15;
+}
+
+.left-side button:hover {
+  color: #ffffff;
+  background-color: #33323d;
+}
+
+.palavras-chave {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #5fb4a2;
+}
+
+.right-side {
+  width: 635px;
+}
+
+.right-side h3 {
+  margin-bottom: 28px;
+}
+
+.right-side p {
+  margin-bottom: 40px;
+}
+
+.right-side img {
+  max-width: 635px;
+  margin-bottom: 32px;
+}
+
+.passador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.passador hr {
+  background: #33323d;
+  opacity: 0.15;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 120px;
+}
+
+.botoes a {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  text-decoration: none;
+
+  color: #33323d;
+}
+
+.botoes a img {
+  width: 8px;
+  height: 16px;
+}
+
+.botoes a div {
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes a span {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  opacity: 0.5;
+}
+
+.proximo {
+  text-align: right;
+}
