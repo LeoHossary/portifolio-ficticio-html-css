@@ -15,7 +15,7 @@ Você pode contribuir com este repositório utilizando [Gitflow Workflow](https:
 - Crie uma `branch` da branch principal;
 - Faça suas contribuições;
 - Abra uma [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) para a branch principal;
-- Aguarde pena análise e futura aprovação.
+- Aguarde pela análise e futura aprovação.
 
 Eu ficarei muito agradecido por sua contribuição :crossed_fingers:
 
